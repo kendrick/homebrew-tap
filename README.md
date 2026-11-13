@@ -30,3 +30,7 @@ Every formula here ships prebuilt binaries for macOS and Linux on both arm64 and
 ## How Formulae Get Here
 
 Each tool's release workflow writes its formula with that release's checksums and pushes it to this repo as a commit. `Formula/ltm.rb` comes from long-term-memory-kit's [release workflow](https://github.com/kendrick/long-term-memory-kit/blob/main/.github/workflows/release.yml) via [`scripts/homebrew-formula.ts`](https://github.com/kendrick/long-term-memory-kit/blob/main/scripts/homebrew-formula.ts). To change a formula, fix its generator, because the next release overwrites any hand edit. The workflow never replaces a newer version with an older one, so re-running an old tag can't roll the tap back.
+
+## License
+
+[MIT](LICENSE)
