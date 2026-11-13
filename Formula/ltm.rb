@@ -1,28 +1,28 @@
 class Ltm < Formula
   desc "Org-level memory for coding agents: query a Bank, hydrate Proposals, and promote decisions"
   homepage "https://github.com/kendrick/long-term-memory-kit"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.2.0/ltm-darwin-arm64"
-      sha256 "aca2067059e68bd48fc98284c01138f848c8aad07ff3534162a699615908447c"
+      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.3.0/ltm-darwin-arm64"
+      sha256 "58a8b3672ddf5a1a0d4503e4b376e0bd268bd8b9bdab7448fdecd160917c9ca1"
     end
     on_intel do
-      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.2.0/ltm-darwin-x64"
-      sha256 "57818371f211df4420629a705a8aacce69ca38e3a9dd5a814c2aa81aa88d586f"
+      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.3.0/ltm-darwin-x64"
+      sha256 "1fda0e7321e957edfd4cb5358fbf1198961c6e473a6e5a091efaccb57f42b6da"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.2.0/ltm-linux-arm64"
-      sha256 "43102b5bab3125a0e4e98d8530ddd14323557b66179f44d44b0dd21fe44cb9b7"
+      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.3.0/ltm-linux-arm64"
+      sha256 "b8b13c3cf42a69a5a687bb35dd8c47000e7e69bc780245c01f949d0ab7622b9f"
     end
     on_intel do
-      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.2.0/ltm-linux-x64"
-      sha256 "b8e45d13926def4bc49c5744132d4ad2bb0bb01123f4cbde00fa52c6bacea640"
+      url "https://github.com/kendrick/long-term-memory-kit/releases/download/v0.3.0/ltm-linux-x64"
+      sha256 "11918f51034829cfc76f9400b784b83bed0df79bbf51d461756e2064d5d40727"
     end
   end
 
